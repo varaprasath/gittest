@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<newOldListCargo>
+    <formListCargo>
+        <NewOldCargo>
+            <oldPHId>2</oldPHId>
+            <newPHId>1</newPHId>
+        </NewOldCargo>
+    </formListCargo>
+</newOldListCargo>

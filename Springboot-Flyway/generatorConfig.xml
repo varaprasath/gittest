@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+<classPathEntry location="D:\Work\Jars\h2.jar" />
+  <context id="context1">
+  
+    <jdbcConnection connectionURL="jdbc:h2:mem:db1" driverClass="org.h2.Driver" password="" userId="" />
+    <javaModelGenerator targetPackage="com.my.spring.mybatis" targetProject="mySpring" />
+    <sqlMapGenerator targetPackage="com.my.spring.mybatis.mappers" targetProject="mySpring" />
+    <javaClientGenerator targetPackage="com.my.spring.mybatis.mappers" targetProject="mySpring" type="XMLMAPPER" />
+    <table schema="" tableName="Sample">
+    </table>
+  </context>
+</generatorConfiguration>

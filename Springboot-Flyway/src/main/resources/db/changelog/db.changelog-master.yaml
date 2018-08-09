@@ -1,0 +1,76 @@
+
+databaseChangeLog:
+
+  - changeSet:
+
+      id: 1
+
+      author: varaprasad
+
+      changes:
+
+        - createTable:
+
+            tableName: test1
+
+            columns:
+
+              - column:
+
+                  name: id
+
+                  type: int
+
+                  autoIncrement: true
+
+                  constraints:
+
+                    primaryKey: true
+
+                    nullable: false
+
+              - column:
+
+                  name: first_name
+
+                  type: varchar(255)
+
+                  constraints:
+
+                    nullable: false
+
+              - column:
+
+                  name: last_name
+
+                  type: varchar(255)
+
+                  constraints:
+
+                    nullable: false
+
+  - changeSet:
+
+      id: 2
+
+      author: varaprasad
+
+      changes:
+
+        - insert:
+
+            tableName: test1
+
+            columns:
+
+              - column:
+
+                  name: first_name
+
+                  value: varaprasad
+
+              - column:
+
+                  name: last_name
+
+                  value: telukuntla
