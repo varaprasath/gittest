@@ -1,4 +1,4 @@
-package com.my.spring;
+package com.my.tech;
 
 import org.springframework.context.annotation.Configuration;
 

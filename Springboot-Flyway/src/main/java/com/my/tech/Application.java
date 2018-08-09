@@ -1,4 +1,4 @@
-package com.my.spring;
+package com.my.tech;
 import java.util.Arrays;
 
 import org.mybatis.spring.annotation.MapperScan;
